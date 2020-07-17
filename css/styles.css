@@ -255,7 +255,7 @@ section {
 .btn-read-more:hover {
   background: #2abe69;
   text-decoration: none;
-  padding: 0.5rem 5rem 0.5rem 1.5rem;
+  padding: 0.5rem 2.2rem 0.5rem 1.5rem;
   color: #fff;
 }
 
@@ -332,6 +332,52 @@ footer a {
 
 #social-media-footer ul li:hover a .fa-facebook {
   color: #3b5998;
+}
+
+/* Blog List Page Styles */
+.page-heading {
+  font-size: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-right: 3px solid #000;
+  transition: all .4s;
+  display: inline-block;
+  padding: .5rem 2rem;
+  margin-top: 128px;
+}
+
+.page-heading:hover {
+  padding: .5rem 3rem .5rem 2rem;
+  background-color: #2abe69;
+}
+
+.card-meta {
+  color: #333;
+  font-size: 1rem;
+  padding-left: .5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-meta a {
+  color: #333;
+}
+
+/* Pagination */
+.pagination {
+  padding: .5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  transition: 0.4s;
+  border-top: 3px solid #fff;
+}
+
+.pagination a:hover {
+  text-decoration: none;
+  border-top: 3px solid #000;
 }
 
 /* Media Queries */
